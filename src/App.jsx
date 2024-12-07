@@ -18,7 +18,7 @@ function App() {
 
 console.log()
   return (
-    <div className='flex flex-row justify-evenly gap-5 h-full w-full   flex-wrap'>
+    <div className='flex flex-row justify-evenly  gap-4 h-full w-full   flex-wrap p-5'>
       {
         cardata.map((car,index)=>{
           return(
